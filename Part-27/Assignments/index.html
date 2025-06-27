@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <div class="welcome heading">
+        <h1>Welcome To My Learning Website</h1>
+    </div>
+    <div class="para">
+        <p> <strong>Explore HTML</strong> concepts through practical examples. HTML is <em>fun and powerful</em> for creating web pages. With a solid foundation in HTML, you can build amazing things.
+        <br>
+        <br>
+        We cover various topics, including <mark>text formatting</mark>, lists, image maps, and tables. Each section <small>focuses on essential skills</small> you need to know, helping you become proficient in HTML.
+        <br>
+        <br>
+        Whether you are a beginner or looking to refine your skills, this site <del>will disappoint you</del> <u>will be an excellent resource</u>. Remember to practice consistently and explore new challenges.</P>
+    </div>
+        <h2>Image Map Example</h2>
+    <div class="image-area">
+            <img src="../assets/image/Bird.jpg" width="500" height="300" alt="Bird Image" usemap="#bird-branch">
+        <map name="bird-branch">
+            <area shape="poly" coords="186,213,257,90,319,156,298,197" href="https://en.wikipedia.org/wiki/Bird" alt="Bird Image" title="Branches Bird" target="_blank">
+            <area shape="poly" coords="361,256,311,231,210,241,271,264,113,278" href="https://en.wikipedia.org/wiki/Branch" alt="tree" title="Tree" target="_blank">
+        </map> <br/>
+        <img src="../assets/image/desktop.jpg" width="500" height="300" alt="desktop" usemap="#desktop-computer">
+        <map name="desktop-computer">
+            <area shape="poly" coords="225,208,212,84,357,161,355,157" href="https://en.wikipedia.org/wiki/Computer_monitor" alt="desktop" title="Monitor" target="_blank">
+            <area shape="poly" coords="326,294,378,298,378,295,384,267" href="https://en.wikipedia.org/wiki/Computer_keyboard" alt="Computer_keyboard" title="Keyboard" target="_blank">
+            <area shape="poly" coords="347,251,390,253,350,233,387,235" href="https://en.wikipedia.org/wiki/Computer_mouse" alt="mouse" title="Mouse" target="_blank">
+        </map>
+    </div>
+    <br/>
+    <h2>Complex Table Example</h2>
+
+<div class="table-1">
+
+    <table border="1">
+        <caption>A Test Table Marged And Cols</caption>
+        <tr>
+            <th rowspan="2">Gender</th>
+            <th colspan="2">Avarege</th>
+            <th rowspan="2">Red Eyes</th>
+        </tr>
+        <tr>
+            <td>Height</td>
+            <td>Weight</td>
+        </tr>
+        <tr>
+            <td>Male</td>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+        </tr>
+        <tfoot>
+        <tr>
+            <td>Female</td>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+        </tfoot>
+    </table>
+    <br/>
+<table border="1">
+    <caption>Header Column</caption>
+    <tr>
+        <th>Header Column 1</th>
+        <th>Header Column 2</th>
+        <th>Header Column 3</th>
+        <th>Header Column 4</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Row 2 Item 1</td>
+        <td rowspan="2">Row 2 Item 2</td>
+        <td rowspan="7">
+            Row 2: Nested Table 1
+            <table border="1">
+                <tr>
+                    <th>Row 1 Heder</th>
+                    <td>Item</td>
+                </tr>
+                <tr>
+                    <th>Row 2 Heder</th>
+                    <td>Item</td>
+                </tr>
+                <tr>
+                    <th>Row 2 Heder</th>
+                    <td>Item</td>
+                </tr>
+            </table>
+        </td>
+        <td>Row 2 - Item 4 <br />A Secend Line</td>
+    </tr>
+    <tr>
+        <td rowspan="7">Row 3 - Item 3</td>
+    </tr>
+    <tr>
+        <th rowspan="3">Row 2: Nested Table 2</th>
+        <td rowspan="5">Row 3 Item 3</td>
+    </tr>
+    <tr></tr>
+    <tr></tr>
+    <tr>
+        <td>
+            <table border="1">
+                <tr>
+                    <th>Row 1 Heder</th>
+                    <td>Item</td>
+                </tr>
+                <tr>
+                    <th>Row 2 Heder</th>
+                    <td>Item</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td>Row 4 - Item 1</td>
+        <td>Row 4 - Item 2</td>
+        <td>Row 4 - Item 3</td>
+    </tr>
+    <tr>
+        <td colspan="4">Row 5 - Last Row Of Outer Table</td>
+    </tr>
+</table>
+</div>
+<br/>
+<div class="Link Area">
+    <a href="../Assignments/Gallery.html">Go To Gallery</a>
+    <br/>
+    <a href="../Assignments/contact.html">Go To Contact</a>
+    <br/>
+    <a href="../Assignments/about.html">Go To About</a>
+</div>
+</body>  
+</html>
