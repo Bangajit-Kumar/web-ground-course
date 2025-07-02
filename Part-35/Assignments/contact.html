@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <div>
+        <h1>Contact Us</h1>
+        <ul>
+            <li><a href="../Assignments/index.html" target="_blank">Home</a></li>
+            <li><a href="../Assignments/about.html" target="_blank">About</a></li>
+            <li><a href="../Assignments/contact.html" target="_blank">Contact</a></li>
+            <li><a href="../Assignments/gallery.html" target="_blank">Gallery</a></li>
+            <li><a href="../Assignments/form.html" target="_blank">Form</a></li>
+        </ul>
+    </div>
+    <div>
+        <h2>Get in Touch</h2>
+        <p>
+            If you have any <mark>questions</mark>, feel free to <strong>contact us</strong>
+            through this <mark>form</mark>.
+        </p>
+    </div>
+    <div>
+        <h2>Responsive Image</h2>
+        <img src="../images/contact-ukcity.jpg" alt="Contact-Us-Image" width="100%"/>
+        <source srcset="../images/contact-ukcity-460.jpg" media="(max-width: 460px)"/>
+        <source srcset="../images/contact-ukcity-850.jpg" media="(max-width: 850px)"/>
+        <source srcset="../images/contact-ukcity-1200.jpg" media="(max-width: 1200px)"/>
+        <source srcset="../images/contact-ukcity-2400.jpg" media="(max-width: 2400px)"/>
+        <source srcset="../images/contact-ukcity-3600.jpg" media="(min-width: 2401px)"/>
+    </div>
+    <div>
+        <h2>Task</h2>
+        <form action="#">
+            <fieldset>
+                <legend>Contact Feedback</legend>
+                <p>
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name"/>
+                </p>
+                <p>
+                    <label for="Password">Password: </label>
+                    <input type="password" name="password" id="password"/>
+                </p>
+                <p>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Your Email"/>
+                </p>
+                <p>
+                    <label for="message">Message: </label>
+                    <input type="text" name="message" id="message" placeholder="Your Message"/>
+                </p>
+                <p>
+                    <input type="hidden" name="hidden" value="Contact Inforation"/>
+                </p>
+            </fieldset>
+            <P>
+                <input type="submit" value="Send"/>
+            </P>
+        </form>
+    </div>
+</body>
+</html>

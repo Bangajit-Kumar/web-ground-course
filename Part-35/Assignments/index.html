@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Welcome to Our Website</h1>
+        </div>
+        <div>
+            <ul>
+                <li><a href="../Assignments/index.html" target="_blank">Home</a></li>
+                <li><a href="../Assignments/about.html" target="_blank">About</a></li>
+                <li><a href="../Assignments/contact.html" target="_blank">Contact</a></li>
+                <li><a href="../Assignments/gallery.html" target="_blank">Gallery</a></li>
+                <li><a href="../Assignments/form.html" target="_blank">Form</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Learn HTML</h2>
+            <p> Explore HTML <strong>tags</strong>, <em>attributes</em>,and <mark>more</mark> in this course.
+                Content is dynamic and <strong>engaging</strong> Deprecatex elements like <del>font</del> 
+                have been replaced by semantic tags like <ins>strong</ins>.
+            </p>
+        </div>
+        <div>
+            <h2>Topics Overview</h2>
+            <table border="1" cellspacing="2" cellpadding="10">
+                <thead>
+                    <tr>
+                        <th>Topic</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML Basics</td>
+                        <td>Tags and attributes</td>
+                    </tr>
+                    <tr>
+                        <td>Formatting</td>
+                        <td>Bold, Italic, Underline</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h2>Responsive Image</h2>
+            <picture>
+                <img src="../images/home-ukcity.jpg" alt="UKcity-Picture" width="60%"/>
+                <source srcset="
+                ../images/home-ukcity-480.avif,
+                ../images/home-ukcity-480.jpg,
+                ../images/home-ukcity-480.webp" media="(max-width: 480px)"/>
+                <source srcset="
+                ../images/home-ukcity-900.avif,
+                ../images/home-ukcity-900.jpg,
+                ../images/home-ukcity-900.webp" media="(max-width: 900px)"/>
+                <source srcset="
+                ../images/home-ukcity-1200.avif,
+                ../images/home-ukcity-1200.jpg,
+                ../images/home-ukcity-1200.webp" media="(max-width: 1200px)"/>
+                <source srcset="
+                ../images/home-ukcity-1900.avif,
+                ../images/home-ukcity-1900.jpg,
+                ../images/home-ukcity-1900.webp" media="(max-width: 1900px)"/>
+                <source srcset="
+                ../images/home-ukcity-2400.avif,
+                ../images/home-ukcity-2400.jpg,
+                ../images/home-ukcity-2400.webp" media="(max-width: 2400px)"/>
+                <source srcset="
+                ../images/home-ukcity-4000.avif,
+                ../images/home-ukcity-4000.jpg,
+                ../images/home-ukcity-4000.webp" media="(min-width: 2401px)"/>
+            </picture>
+        </div>
+        <div>
+            <h2>Assignment</h2>
+            <form action="post">
+                <p>
+                    <label for="text">Username: </label>
+                    <input type="text" name="Username" id="Username" placeholder="Enter Your Username"/>
+                </p>
+                <p>
+                    <label for="Password">Password: </label>
+                    <input type="password" name="Password" id="Password" placeholder="Enter a Password"/>
+                </p>
+                <p>
+                    <label for="Comment">Comment: </label>
+                    <input type="text" name="Comment" id="Comment" placeholder="Write a Comment"/>
+                </p>
+                <p>
+                    <input type="hidden" name="hidden" value="Home pages all sectet"/>
+                </p>
+                <p>
+                    <input type="submit" value="submit"/>
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

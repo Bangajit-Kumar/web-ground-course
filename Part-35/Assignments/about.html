@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>About</h1>
+            <ul>
+                <li><a href="../Assignments/index.html" target="_blank">Home</a></li>
+                <li><a href="../Assignments/about.html" target="_blank">About</a></li>
+                <li><a href="../Assignments/contact.html" target="_blank">Contact</a></li>
+                <li><a href="../Assignments/gallery.html" target="_blank">Gallery</a></li>
+                <li><a href="../Assignments/form.html" target="_blank">Form</a></li>
+            </ul>
+        </div>
+        <Div>
+            <h2>Who We Are</h2>
+            <p>
+                We aim to provide <strong>quality education</strong> in <em>web development</em>.
+                Our tutorials are <mark>easy to follow</mark> and <strong>structured for learning</strong>.
+            </p>
+        </Div>
+        <div>
+            <h2>Team Image</h2>
+            <img src="../images/about-ukcity.jpg" alt="UKcity-Picture" width="70%"/>
+            <source srcset="
+            ../images/about-ukcity-480.avif,
+            ../images/about-ukcity-480.jpg,
+            ../images/about-ukcity-480.webp" media="(max-width: 480px)"/>
+            <source srcset="
+            ../images/about-ukcity-900.avif,
+            ../images/about-ukcity-900.jpg,
+            ../images/about-ukcity-900.webp" media="(max-width: 900px)"/>
+            <source srcset="
+            ../images/about-ukcity-1200.avif,
+            ../images/about-ukcity-1900.jpg,
+            ../images/about-ukcity-1900.webp" media="(max-width: 1200px)"/>
+            <source srcset="
+            ../images/about-ukcity-1900.avif,
+            ../images/about-ukcity-1900.jpg,
+            ../images/about-ukcity-1900.webp" media="(max-width: 1900px)"/>
+            <source srcset="
+            ../images/about-ukcity-2400.avif,
+            ../images/about-ukcity-2400.jpg,
+            ../images/about-ukcity-2400.webp" media="(max-width: 2400px)"/>
+            <source srcset="
+            ../images/about-ukcity-4000.avif,
+            ../images/aabout-ukcity-4000.jpg,
+            ../images/about-ukcity-4000.webp" media="(min-width: 2401px)"/>
+        </div>
+        <div>
+            <h2>Feedback Form</h2>
+            <form action="post">
+                <fieldset>
+                    <legend>About Feedback</legend>
+                    <p>
+                        <label for="name"> Name: </label>
+                        <input type="text" name="name" id="name"/>
+                    </p>
+                    <p>
+                        <label for="password">Password: </label>
+                        <input type="password" name="password" id="password"/>
+                    </p>
+                </fieldset>
+                <p>
+                    <input type="hidden" name="hidden" id="about secreat"/>
+                </p>
+                <p>
+                    <input type="submit" name="submit" id="submit"/>
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

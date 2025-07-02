@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Gallery</h1>
+            <ul>
+                <li><a href="../Assignments/index.html" target="_blank">Home</a></li>
+                <li><a href="../Assignments/about.html" target="_blank">About</a></li>
+                <li><a href="../Assignments/contact.html" target="_blank">Contact</a></li>
+                <li><a href="../Assignments/gallery.html" target="_blank">Gallery</a></li>
+                <li><a href="../Assignments/form.html" target="_blank">Form</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Gallery Images</h2>
+
+            <img src="../images/gallery-ukcity1.jpg" alt="gallery-ukcity1" width="35%"/>
+
+            <source srcset="../images/gallery-ukcity1-480.jpg" media="(max-width: 480px)"/>
+            <source srcset="../images/gallery-ukcity1-900.jpg" media="(max-width: 900px)"/>
+            <source srcset="../images/gallery-ukcity1-1200.jpg" media="(max-width: 1200px)"/>
+            <source srcset="../images/gallery-ukcity1-1900.jpg" media="(max-width: 1900px)"/>
+            <source srcset="../images/gallery-ukcity1-2400.jpg" media="(max-width: 2400px)"/>
+            <source srcset="../images/gallery-ukcity1-3600.jpg" media="(min-width: 2401px)"/>
+
+            <img src="../images/gallery-ukcity2.jpg" alt="gallery-ukcity2" width="64%"/>
+
+            <source srcset="../images/gallery-ukcity2-480.jpg" media="(max-width: 480px)"/>
+            <source srcset="../images/gallery-ukcity2-900.jpg" media="(max-width: 900px)"/>
+            <source srcset="../images/gallery-ukcity2-1200.jpg" media="(max-width: 1200px)"/>
+            <source srcset="../images/gallery-ukcity2-1900.jpg" media="(max-width: 1900px)"/>
+            <source srcset="../images/gallery-ukcity2-2400.jpg" media="(max-width: 2400px)"/>
+            <source srcset="../images/gallery-ukcity2-3600.jpg" media="(min-width: 2401px)"/>
+        </div>
+        <div>
+            <h2>Feedback Form</h2>
+            <form action="post">
+                <fieldset>
+                    <legend>Gallery Feedback</legend>
+                    <p>
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name"/>
+                    </p>
+                    <p>
+                        <label for="password">Password: </label>
+                        <input type="password" name="password" id="password"/>
+                    </p>
+                    <input type="hidden" name="hidden" value="Gallery Information"/>
+                </fieldset>
+                <p>
+                    <input type="submit" value="submit"/>
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
