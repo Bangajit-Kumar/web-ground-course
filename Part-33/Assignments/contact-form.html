@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Contact form</h1>
+            <h2>Form Banner</h2>
+            <picture>
+                <img src="../assets/images/Contact-Form.jpg" alt="Contact Form Image" width="80%"/>
+                <source srcset="
+                ../assets/images/Contact-Form-1.jpg,
+                ../assets/images/Contact-Form-1.avif,
+                ../assets/images/Contact-Form-1.webp" media="(max-width: 450px)"/>
+                <source srcset="
+                ../assets/images/Contact-form-2.jpg,
+                ../assets/images/Contact-form-2.avif,
+                ../assets/images/Contact-form-2.webp" media="(max-width: 810px)"/>
+                <source srcset="
+                ../assets/images/Contact-Form.jpg,
+                ../assets/images/Contact-Form.avif,
+                ../assets/images/Contact-Form.webp" media="(min-width: 810px)"/>
+            </picture>
+        </div>
+        <br/>
+        <div>
+            <form action="#">
+                <fieldset>
+                    <legend>Personal Info</legend>
+                    <p>
+                        <label for="fname">First Name</label>
+                        <input type="text" name="fname" id="fname"/>
+                    </p>
+                    <p>
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="lname" id="lname"/>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Message Details</legend>
+                    <p>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"></textarea>
+                    </p>
+                </fieldset>
+                <p><input type="submit" value="Submit"/></p>
+            </form>
+        </div>
+        <div>
+            <ul>
+                <li><a href="../Assignments/index.html">Home</a></li>
+                <li><a href="../Assignments/about.html">About</a></li>
+                <li><a href="../Assignments/gallery.html">Gallery</a></li>
+                <li><a href="../Assignments/contact.html">Contact</a></li>
+                <li><a href="../Assignments/contact-form.html">Contact Form</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

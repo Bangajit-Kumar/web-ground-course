@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <div>
+        <h1>Welcome to John Doe's Portfolio</h1>
+        <p><strong>John Doe</strong> is a passionate <I>web developer</I>. He specializes in creating <mark>high-quality websites</mark> that are visually appealing and <u>functionally rich</u>. He is constantly learning new technologies to <del>stay-behind</del> <strong>stay ahead</strong> in the industry.</p>
+    </div>
+
+    <div>
+        <h2>Skills Overview</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th rowspan="2">Skill</th>
+                    <th colspan="3">Proficiency</th>
+                </tr>
+                <tr>
+                    <th>Beginner</th>
+                    <th>Intermediate</th>
+                    <th>Expert</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td></td>
+                    <td></td>
+                    <td>✓</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td></td>
+                    <td>✓</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>✓</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Proficiency levels are based on John Doe's self assessment</td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+    </div>
+    <div>
+        <h2>Profile Image</h2>
+        <picture>
+            <img src="../assets/images/Francisco-home.jpg" alt="Home Image" width="100%"/>
+            <source srcset="
+            ../assets/images/Francisco-home-450.jpg,
+            ../assets/images/Francisco-home-450.avif,
+            ../assets/images/Francisco-home-450.webp" media="(max-widht: 450px)" />
+            <source srcset="
+            ../assets/images/Francisco-home-810.jpg,
+            ../assets/images/Francisco-home-810.avif,
+            ../assets/images/Francisco-home-810.webp" media="(max-width: 810px)" />
+            <source srcset="
+            ../assets/images/Francisco-home.jpg,
+            ../assets/images/Francisco-home.avif,
+            ../assets/images/Francisco-home.webp" media="(min-widht: 810px)" />
+        </picture>
+    </div>
+    <div>
+        <h2>Navigation</h2>
+        <ul>
+            <li><a href="../Assignments/about.html">About</a></li>
+            <li><a href="../Assignments/gallery.html">Gallery</a></li>
+            <li><a href="../Assignments/contact.html">Contact</a></li>
+            <li><a href="../Assignments/contact-form.html">Contact-Form</a></li>
+        </ul>
+    </div>
+</body>
+</html>

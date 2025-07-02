@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+</head>
+<body>
+    <div>
+        <h1>Gallery</h1>
+        <div>
+            <p>Here are some of the projects Jhon has worked on:</p>
+            <picture>
+                <img src="../assets/images/Gallery-1.jpg" alt="Gallery Image" width="50%"/>
+                <source srcset="
+                ../assets/images/Gallery-3.jpg,
+                ../assets/images/Gallery-3.avif,
+                ../assets/images/Gallery-3.webp" media="(max-width: 810px)"/>
+                <source srcset="
+                ../assets/images/Gallery-1.jpg,
+                ../assets/images/Gallery-1.avif,
+                ../assets/images/Gallery-1.webp"/>
+                <figcaption>project-1: Ecommerce website</figcaption>
+            </picture>
+            <br/>
+            <picture>
+                <img src="../assets/images/Gallery-2.jpg" alt="Gallery Image" width="50%"/>
+                <source srcset="
+                ../assets/images/Gallery-4.jpg,
+                ../assets/images/Gallery-4.avif,
+                ../assets/images/Gallery-4.webp" media="(max-width: 810px)"/>
+                <source srcset="
+                ../assets/images/Gallery-2.jpg,
+                ../assets/images/Gallery-2.avif,
+                ../assets/images/Gallery-2.webp" />
+                <figcaption>project-2: Blogging Platfrom</figcaption>
+            </picture>
+        </div>
+        <div>
+            <h2>Responsive Image Example</h2>
+            <picture>
+                <img src="../assets/images/Gallery.jpg" alt="Gallery Image" width="100%"/>
+                <source srcset="
+                ../assets/images/Gallery-450.jpg,
+                ../assets/images/Gallery-450.avif,
+                ../assets/images/Gallery-450.webp" media="(max-width: 450px)"/>
+                <source srcset="
+                ../assets/images/Gallery-810.jpg,
+                ../assets/images/Gallery-810.avif,
+                ../assets/images/Gallery-810.webp" media="(max-width: 810px)"/>
+                <source srcset="
+                ../assets/images/Gallery.jpg,
+                ../assets/images/Gallery.avif,
+                ../assets/images/Gallery.webp" media="(min-width: 810px)"/>
+            </picture>
+        </div>
+        <div>
+            <ul>
+                <li><a href="../Assignments/index.html">Home</a></li>
+                <li><a href="../Assignments/about.html">About</a></li>
+                <li><a href="../Assignments/contact.html">Contact</a></li>
+                <li><a href="../Assignments/contact-form.html">Contact Form</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
