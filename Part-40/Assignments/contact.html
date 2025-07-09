@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=">
+    <title>Contact</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Contact Us</h1>
+            <ul>
+                <li><a href="../Assignments/index.html" target="_blank">Home</a></li>
+                <li><a href="../Assignments/about.html" target="_blank">About</a></li>
+                <li><a href="../Assignments/gallery.html" target="_blank">Gallery</a></li>
+                <li><a href="../Assignments/contact.html" target="_blank">Contact</a></li>
+                <li><a href="../Assignments/form.html" target="_blank">Form</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Contact Form</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <p>
+                        <label for="name">Full Name: </label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name"/>
+                        <br/>
+                        <br/>
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email"/>
+                        <br/>
+                        <br/>
+                        <label for="phone">Phone: </label>
+                        <input type="tel" name="phone" id="phone" placeholder="Enter your phone number"/>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Preferred Contact Date</legend>
+                    <p>
+                        <label for="datetime">Datetime: </label>
+                        <input type="datetime-local" name="datetime" id="datetime" min="2025-02-01T14:00:00" max="2025-02-28T23:59:59"/>
+                        <br/>
+                        <br/>
+                        <label for="date">Date:</label>
+                        <input type="date" name="date" id="date" min="2025-02-01" max="2025-02-28"/>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Feedback</legend>
+                    <p>
+                        <label for="Rating">Rating: </label>
+                        <input type="range" name="Rating" id="Rating" value="1" min="100" max="1000" step="100"/>
+                        <br/>
+                        <br/>
+                        <label for="color">Color Preference: </label>
+                        <input type="color" name="Color" id="color" value="color"/>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Subscribe</legend>
+                    <br/>
+                    <p>
+                        <input type="checkbox" name="Subscribe" id="Subscribe" value="Subscribe"/>
+                        <label for="Subscribe">Subscribe to Newsletter: </label>
+                    </p>                    
+                </fieldset>
+                <p>
+                    <button type="submit" name="submit" id="submit" value="submit"><strong>Submit</strong></button>
+                    <button type="reset" name="reset" id="reset" value="reset"><strong>Reset</strong></button>
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

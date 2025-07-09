@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallary</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Gallery</h1>
+            <ul>
+                <li><a href="../Assignments/index.html" target="_blank">Home</a></li>
+                <li><a href="../Assignments/about.html" target="_blank">About</a></li>
+                <li><a href="../Assignments/gallery.html" target="_blank">Gallery</a></li>
+                <li><a href="../Assignments/contact.html" target="_blank">Contact</a></li>
+                <li><a href="../Assignments/form.html" target="_blank">Form</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Gallery Form</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Gallery Feedback</legend>
+                    <p>
+                        <label for="username">Username: </label>
+                        <input type="text" name="username" id="username" placeholder="Enter your username"/>
+                        <br/>
+                        <br/>
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email"/>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Rate Our Gallery</legend>
+                    <p>
+                        <label for="Rating">Rating: </label>
+                        <input type="range" name="Rating" id="Rating" value="1" min="100" max="1000" step="100"/>
+                        <br/>
+                        <br/>
+                        <label for="color">Favorite Color: </label>
+                        <input type="color" name="Color" id="color" value="color"/>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Event Date & Time</legend>
+                    <p>
+                        <label for="datetime">Event Date & Time: </label>
+                        <input type="datetime-local" name="datetime" id="datetime" value="datetime" min="2025-02-01T14:00:00" max="2025-02-28T23:59:59"/>
+                        <br/>
+                        <br/>
+                        <label for="date">Preferred Date: </label>
+                        <input type="date" name="date" id="date" value="date" min="2025-02-01" max="2025-02-28"/>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Options</legend>
+                    <p>
+                        <input type="checkbox" name="Notifications" id="Notifications" value="Notifications"/>
+                        <label for="Notifications">Receive Notifications: </label>
+                        <br/>
+                        <br/>
+                        <input type="radio" name="Option" id="Option-1" value="Option-1"/>
+                        <label for="Option-1">Option A </label>
+                        <br/>
+                        <br/>
+                        <input type="radio" name="Option" id="Option-2" value="Option-2"/>
+                        <label for="Option-2">Option B </label>
+                    </p>
+                </fieldset>
+                <p>
+                    <button type="submit" name="submit" id="submit" value="submit"><strong>Submit</strong></button>
+                    <button type="reset" name="reset" id="reset" value="reset"><strong>Reset</strong></button>
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
