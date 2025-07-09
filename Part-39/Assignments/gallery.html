@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Gallery</h1>
+            <ul>
+                <li><a href="../Assignments/index.html" target="_blank">Home</a></li>
+                <li><a href="../Assignments/about.html" target="_blank">About</a></li>
+                <li><a  href="../Assignments/gallery.html" target="_blank">Gallery</a></li>
+                <li><a href="../Assignments/contact.html" target="_blank">Contact</a></li>
+                <li><a href="../Assignments/form.html" target="_blank">Form</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Photo Gallery</h2>
+            <p>Enjoy our collection of beautiful images.</p>
+            <picture>
+                <img src="../assets/gallery-train.jpg" alt="train-line" width="100%"/>
+                <source srcset="../assets/gallery-train-500.jpg" media="(max-width: 500px)"/>
+                <source srcset="../assets/gallery-train-800.jpg" media="(max-width: 800px)"/>
+                <source srcset="../assets/gallery-train-1500.jpg" media="(max-width: 1500px)"/>
+            </picture>
+        </div>
+        <div>
+            <h2>Form</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>User Feedback</legend>
+                    <p>
+                        <label for="Search">Search for Images: </label>
+                        <input type="search" name="search" id="search" placeholder="Search images"/>
+                        <br/>
+                        <br/>
+                        <label for="url">Gallery URL: </label>
+                        <input type="url" name="url" id="url" placeholder="Paste a URL"/>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Rating</legend>
+                    <p>
+                        <label for="Rating">Rating: </label>
+                        <input type="number" name="rating" id="rating" value="1" min="" max="5" step="any"/>
+                        <br/>
+                        <br/>
+                        <label for="Level">Satisfaction Level: </label>
+                        <input type="range" name="Level" id="Level" value="200" min="100" max="500" step="50"/>
+                        <br/>
+                        <br/>
+                        <label for="color">Preferred Theme Color: </label>
+                        <input type="color" name="color" id="color" value="color"/>
+                        <br/>
+                        <br/>
+                        <button type="submit" name="submit" id="submit" value="submit"><strong>Submit</strong></button>
+                        <button type="reset" name="reset" id="reset" value="reset"><strong>Reset</strong></button>
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

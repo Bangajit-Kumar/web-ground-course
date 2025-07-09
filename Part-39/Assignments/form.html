@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Complete Form</h1>
+            <ul>
+                <li><a href="../Assignments/index.html" target="_blank">Home</a></li>
+                <li><a href="../Assignments/about.html" target="_blank">About</a></li>
+                <li><a  href="../Assignments/gallery.html" target="_blank">Gallery</a></li>
+                <li><a href="../Assignments/contact.html" target="_blank">Contact</a></li>
+                <li><a href="../Assignments/form.html" target="_blank">Form</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Fill Out the Form</h2>
+            <p>Please complete the form below for your needs.</p>
+            <picture>
+                <img src="../assets/form-train.jpg" alt="train-line" width="100%"/>
+                <source srcset="../assets/form-train-500.jpg" media="(max-width: 500px)"/>
+                <source srcset="../assets/form-train-800.jpg" media="(max-width: 800px)"/>
+                <source srcset="../assets/form-train-1500.jpg" media="(max-width: 1500px)"/>
+            </picture>
+        </div>
+        <div>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Basic Info</legend>
+                    <p>
+                        <label for="f-name">First Name: </label>
+                        <input type="text" name="f-name" id="f-name" placeholder="Enter your first name"/>
+                        <br/>
+                        <br/>
+                        <label for="l-name">Last Name: </label>
+                        <input type="text" name="l-name" id="l-name" placeholder="Enter your last name"/>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Details</legend>
+                    <p>
+                        <Label for="email">Email: </Label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email" multiple/>
+                        <br/>
+                        <br/>
+                        <label for="tel">Phone: </label>
+                        <input type="tel" name="tel" id="tel" placeholder="Enter your phone number"/>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Preferences</legend>
+                    <p>
+                        <label for="Quantity">Preferred Quantity: </label>
+                        <input type="number" name="Quantity" id="Quantity" value="1" min="1" max="10" step="any"/>
+                        <br/>
+                        <br/>
+                        <label for="range">Price Range: </label>
+                        <input type="range" name="price-range" id="price-range" value="2000" min="1000" max="10000" step="500"/>
+                        <br/>
+                        <br/>
+                        <label for="color">Choose a Color: </label>
+                        <input type="color" name="color" id="color" value="color"/>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <Legend>Submit</Legend>
+                    <p>
+                        <button type="submit" name="submit" id="submit" value="submit"><strong>Submit</strong></button>
+                        <button type="reset" name="reset" id="reset" value="reset"><strong>Reset</strong></button>
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

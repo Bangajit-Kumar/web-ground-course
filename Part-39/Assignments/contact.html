@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Contact Us</h1>
+            <ul>
+                <li><a href="../Assignments/index.html" target="_blank">Home</a></li>
+                <li><a href="../Assignments/about.html" target="_blank">About</a></li>
+                <li><a  href="../Assignments/gallery.html" target="_blank">Gallery</a></li>
+                <li><a href="../Assignments/contact.html" target="_blank">Contact</a></li>
+                <li><a href="../Assignments/form.html" target="_blank">Form</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Get in Touch</h2>
+            <p>Feel free to reach out to us for any queries or support.</p>
+            <picture>
+                <img src="../assets/contact-train.jpg" alt="train-station" width="100%"/>
+                <source srcset="../assets/contact-train-500.jpg" media="(max-width: 500px)"/>
+                <source srcset="../assets/contact-train-800.jpg" media="(max-width: 800px)"/>
+                <source srcset="../assets/contact-train-1500.jpg" media="(max-width: 1500px)"/>
+            </picture>
+        </div>
+        <div>
+            <h2>Form</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Contact Details</legend>
+                    <p>
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email" multiple/>
+                        <br/>
+                        <br/>
+                        <label for="tel">Phone: </label>
+                        <input type="tel" name="tel" id="tel" placeholder="Enter your phone number"/>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Feedback</legend>
+                    <p>
+                        <label for="Score">Feedback Score: </label>
+                        <input type="number" name="Score" id="Score" value="1" min="1" max="5" step="any"/>
+                        <br/>
+                        <br/>
+                        <label for="Level">Satisfaction Level: </label>
+                        <input type="range" name="Level" id="Level" value="1"/ min="1" max="10" step="any"/>
+                        <br/>
+                        <br/>
+                        <label for="color">Theme Preference: </label>
+                        <input type="color" name="color" id="color" value="color"/>
+                        <br/>
+                        <br/>
+                        <button type="submit" name="submit" id="submit" value="submit"><strong>Submit</strong></button>
+                        <button type="reset" name="reset" id="reset" value="reset"><strong>Reset</strong></button>
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
