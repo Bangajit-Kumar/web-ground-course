@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class 42</title>
+</head>
+<body>
+    <div>
+        <form action="#">
+            <p>
+                <label for="uname">Username</label>
+                <input type="text" name="uname" id="uname"/>
+            </p>
+            <p>
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" id="fname" spellcheck="true" autofocus="true"/>
+            </p>
+            <p>
+                <label for="lname">Last Name</label>
+                <input type="text" name="lname" id="lname" placeholder="Last Name" size="4" maxlength="3"/>
+                
+            </p>
+            <p>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password"/>
+            </p>
+            <p>
+                <input type="hidden" name="Token" id="Token" value="bangajit"/>
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" multiple/>
+            </p>
+            <p>
+                <label for="search">Search</label>
+                <input type="search" name="search" id="search"/>
+            </p>
+            <p>
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone"/>
+            </p>
+            <p>
+                <label for="Url">Url</label>
+                <input type="url" name="url" id="Url"/>
+            </p>
+            <p>
+                <label for="amount">Amount</label>
+                <input type="number" name="amount" id="amount" min="1" max="100" step="any"/>
+            </p>
+            <p>
+                <label for="price">Price</label>
+                <input type="range" name="price" id="price" min="1000" max="10000" step="500" value="2000"/>
+            </p>
+            <p>
+                <label for="color">Pick Color</label>
+                <input type="color" name="color" id="color"/>
+            </p>
+            <fieldset>
+                <legend>Qualification</legend>
+                <p>
+                    <input type="checkbox" name="qualification" id="mp" value="mp"/>
+                    <label for="mp">MP</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="qualification" id="hs" value="hs"/>
+                    <label for="hs">HS</label>
+                </p> 
+                <p>
+                    <input type="checkbox" name="qualification" id="ba" value="ba"/>
+                    <label for="ba">MP</label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Gender</legend>
+                <p>
+                    <input type="radio" name="gender" id="male" value="male" checked/>
+                    <label for="male">Male</label>
+                </p>
+                <p>
+                    <input type="radio" name="gender" id="female" value="female"/>
+                    <label for="female">Female</label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>datetime picker</legend>
+                <p>
+                    <label for="datetime-picker">datetime-picker</label>
+                    <input type="datetime-local" name="datetime-picker" 
+                    id="datetime-picker" min="2025-01-01T14:00:00" max="2025-01-01T23:59:59"/>
+                </p>
+                <p>
+                    <label for="date-picker">date-picker</label>
+                    <input type="date" name="date-picker" id="date-picker" min="2025-01-01" max="2025-01-25" step="5"/>
+                </p>
+                <p>
+                    <label for="date-picker">date-picker</label>
+                    <input type="date" name="date-picker" id="date-picker" min="2025-01-01" max="2025-01-25"/>
+                </p>
+                <p>
+                    <label for="time-picker">Time-picker</label>
+                    <input type="time" name="time-picker" id="time-picker"/>
+                </p>
+                <p>
+                    <label for="month-picker">Month-picker</label>
+                    <input type="month" name="month-picker" id="month-picker"/>
+                </p>
+                <p>
+                    <label for="week-picker">Week-picker</label>
+                    <input type="week" name="week-picker" id="week-picker"/>
+                </p>
+            </fieldset>
+            <p>
+                <label for="message">Message</label>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Write here" minlength="10" maxlength="20" wrap="soft"></textarea>
+            </p>
+            <p>
+                <fieldset>
+                    <Legend>Select Box</Legend>
+                    <p>
+                        <label for="week-picker">Courses</label>
+                        <select name="course" id="course" multiple>
+                            <option value="html">HTML</option>
+                            <option value="css">CSS</option>
+                            <option value="js" selected>JS</option>
+                            <option value="php">PHP</option>
+                            <option value="laravel">Laravel</option>
+                            <option value="node js">Node JS</option>
+                            <option value="mongoDB">MongoDB</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="week-picker">Course Group</label>
+                        <select name="course" id="course">
+                            <optgroup label="Frontend">
+                                <option value="html">HTML</option>
+                                <option value="css">CSS</option>
+                                <option value="js" selected>JS</option>
+                            </optgroup>
+                            <optgroup label="Backend">
+                                <option value="php">PHP</option>
+                                <option value="laravel">Laravel</option>
+                                <option value="node js">Node JS</option>
+                                <option value="mongoDB">MongoDB</option>
+                            </optgroup>
+                        </select>
+                    </p>
+                </fieldset>
+            </p>
+            <p>
+                <input type="submit" name="submit" value="Form Submit"/>
+                <button type="submit" name="submit" value="Click Submit">Button <em>Submit</em></button>
+                <button type="reset" name="reset" value="reset">Reset</button>
+                <button type="button">Normal Button</button>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
