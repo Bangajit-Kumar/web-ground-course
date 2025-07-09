@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+</head>
+<body>
+    <di>
+        <div>
+            <h1>About Us</h1>
+            <ul>
+                <li><a href="../Assignments/index.html" target="_blank">Home</a></li>
+                <li><a href="../Assignments/about.html" target="_blank">About</a></li>
+                <li><a href="../Assignments/gallery.html" target="_blank">Gallery</a></li>
+                <li><a href="../Assignments/contact.html" target="_blank">Contact</a></li>
+                <li><a href="../Assignments/form.html" target="_blank">Form</a></li>
+            </ul>
+            <h2>Our Mission</h2>
+            <p>
+                We want to provide high-quality tutorials for aspiring <strong>web developers</strong>.
+                We emphasize <mark>practice-based learning</mark> to help you <em>master core concepts</em>.
+            </p>
+        </div>
+        <div>
+            <h2>Responsive Image</h2>
+            <picture>
+                <img src="../assets/taxi-about.jpg" alt="taxi picture" width="60%"/>
+                <source srcset="../assets/taxi-about-500.jpg" media="(max-width: 500px)"/>
+                <source srcset="../assets/taxi-about-800.jpg" media="(max-width: 800px)"/>
+                <source srcset="../assets/taxi-about-1500.jpg" media="(max-width: 1500px)"/>
+            </picture>
+        </div>
+        <div>
+            <h3>Assignment Form</h3>
+            <form action="#" method="post">
+                <p>
+                    <label for="fname">Full Name: </label>
+                    <input type="text" name="fname" id="fname" placeholder="Enter your full name"/>
+                    <br/>
+                    <label for="email">Email Address: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email"/>
+                    <br/>
+                    <label for="tel">Phone Number:</label>
+                    <input type="tel" name="tel" id="tel" placeholder="Enter your phone number"/>
+                    <br/>
+                    <caption>Preferred Learning Style:</caption>
+                    <br/>
+                    <input type="radio" name="learning" id="Visual" value="visual"/>
+                    <label for="visual">Visual</label>
+                    <br/>
+                    <input type="radio" name="learning" id="hands-on" value="hands-on"/>
+                    <label for="hands-on">Hands-On</label>
+                    <br/>
+                    <caption>Topics of interest: </caption>
+                    <br/>
+                    <input type="checkbox" name="interest" id="JavaScript" value="JavaScript"/>
+                    <label for="JavaScript">JavaScript</label>
+                    <br/>
+                    <input type="checkbox" name="interest" id="php" value="php"/>
+                    <label for="php">PHP</label>
+                    <br/>
+                    <label for="comments">Comments: </label>
+                    <input type="text" name="comments" id="comments" placeholder="Your comments or feedback"/>
+                    <br/>
+                    <button type="submit" name="submit" id="submit" value="submit">Submit</button>
+                </p>
+            </form>
+        </div>
+    </di>
+</body>
+</html>

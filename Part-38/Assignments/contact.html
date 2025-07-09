@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Contact Us</h1>
+            <ul>
+                <li><a href="../Assignments/index.html" target="_blank">Home</a></li>
+                <li><a href="../Assignments/about.html" target="_blank">About</a></li>
+                <li><a href="../Assignments/gallery.html" target="_blank">Gallery</a></li>
+                <li><a href="../Assignments/contact.html" target="_blank">Contact</a></li>
+                <li><a href="../Assignments/form.html" target="_blank">Form</a></li>
+            </ul>
+            <h2>Get in Touch</h2>
+            <p>
+                Feel free to contact us through the form below or reach out email or phone.
+            </p>
+        </div>
+        <div>
+            <h2>Our Official Location</h2>
+            <picture>
+                <img src="../assets/taxi-contact.jpg" alt="taxi picture" width="60%"/>
+                <source srcset="../assets/taxi-contact-500.jpg" media="(max-width: 500px)"/>
+                <source srcset="../assets/taxi-contact-800.jpg" media="(max-width: 800px)"/>
+                <source srcset="../assets/taxi-contact-1500.jpg" media="(max-width: 1500px)"/>
+            </picture>
+        </div>
+        <div>
+            <h3>Contact Form</h3>
+            <form action="#" method="post">
+                <P>
+                    <label for="fname">Full Name: </label>
+                    <input type="text" name="fname" id="fname" placeholder="Enter your full name"/>
+                    <br/>
+                    <label for="email">Email Address: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email"/>
+                    <br/>
+                    <label for="p-number">Phone Number: </label>
+                    <input type="tel" name="p-number" id="p-number" placeholder="Enter your phone number"/>
+                    <br/>
+                    <caption>Preferred Contact Method:</caption>
+                    <br/>
+                    <input type="radio" name="contact" id="email" value="email"/>
+                    <label for="email">Email</label>
+                    <br/>
+                    <input type="radio" name="contact" id="phone" value="phone"/>
+                    <label for="phone">Phone</label>
+                    <br/>
+                    <caption>Type of Query:</caption>
+                    <br/>
+                    <input type="checkbox" name="quary" id="support" value="support"/>
+                    <label for="support">Support</label>
+                    <br/>
+                    <input type="checkbox" name="quary" id="feedback" value="feedback"/>
+                    <label for="feedback">Feedback</label>
+                    <br/>
+                    <label for="url">Your Website (Optional): </label>
+                    <input type="url" name="url" id="url" placeholder="Enter your website URL"/>
+                    <br/>
+                    <button type="submit" name="submit" id="submit" value="submit">Submit</button>
+                </P>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
