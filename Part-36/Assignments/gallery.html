@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallary</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Gallery</h1>
+            <ul>
+                <li><a href="../Assignments/index.html" target="_blank">Home</a></li>
+                <li><a href="../Assignments/about.html" target="_blank">About</a></li>
+                <li><a href="../Assignments/contact.html" target="_blank">Contact</a></li>
+                <li><a href="../Assignments/gallery.html" target="_blank">Gallery</a></li>
+                <li><a href="../Assignments/form.html" target="_blank">Form</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Image Collection</h2>
+            <picture>
+                <img src="../images/gallery.jpg" alt="art" width="65%"/>
+                <source srcset="../images/gallery-500.jpg" media="(max-width: 500px)"/>
+                <source srcset="../images/gallery-900.jpg" media="(max-width: 900px)"/>
+                <source srcset="../images/gallery-1500.jpg" media="(max-width: 1500px)"/>
+            </picture>
+        </div>
+        <div>
+            <h3>Assignment</h3>
+            <form action="#" method="post">
+                Favorite Image Type:
+                <br/>
+                <input type="radio" name="landscape" id="landscape" value="landscape"/>
+                <label for="landscape">Landscape</label>
+                <br/>
+                <input type="radio" name="portrait" id="portrait" value="portrait"/>
+                <label for="portrait">Portrait</label>
+                <br/>
+                Select your favorite categories:
+                <br/>
+                <input type="checkbox" name="nature" id="nature" value="nature"/>
+                <label for="nature">Nature</label>
+                <br/>
+                <input type="checkbox" name="architecture" id="architecture" value="architecture"/>
+                <label for="architecture">Architecture</label>
+                <br/>
+                <input type="submit" name="submit" id="submit" value="submit"/>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

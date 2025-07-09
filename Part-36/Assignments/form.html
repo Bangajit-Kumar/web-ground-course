@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>HTML Forms</h1>
+            <ul>
+                <li><a href="../Assignments/index.html" target="_blank">Home</a></li>
+                <li><a href="../Assignments/about.html" target="_blank">About</a></li>
+                <li><a href="../Assignments/contact.html" target="_blank">Contact</a></li>
+                <li><a href="../Assignments/gallery.html" target="_blank">Gallery</a></li>
+                <li><a href="../Assignments/form.html" target="_blank">Form</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Form Demonstration</h2>
+            <p>
+                Learn to use <strong>text inputs</strong>, <em>checkboxes</em>, <strong>radio buttons</strong>, 
+                and more with this form example.
+            </p>
+        </div>
+        <div>
+            <h2>Responsive Image</h2>
+            <picture>
+                <img src="../images/form.jpg" alt="art" width="65%"/>
+                <source srcset="../images/form-500.jpg" media="(max-width: 500px)"/>
+                <source srcset="../images/form-900.jpg" media="(max-width: 900px)"/>
+                <source srcset="../images/form-1500.jpg" media="(max-width: 1500px)"/>
+            </picture>
+        </div>
+        <div>
+            <h3>Assignment Form</h3>
+            <form action="#" method="post">
+                <p>
+                    <label for="uname">User Name: </label>
+                    <input type="text" name="uname" id="uname" placeholder="Enter Your Username"/>
+                    <br/>
+                    <label for="password">Password: </label>
+                    <input type="password" name="password" id="password" placeholder="Enter your Password"/>
+                    <br/>
+                    Gender:
+                    <br/>
+                    <input type="radio" name="gender" id="male" value="male"/>
+                    <label for="male">Male</label>
+                    <br/>
+                    <input type="radio" name="gender" id="female" value="female"/>
+                    <label for="female">Female</label>
+                    <br/>
+                    Select Your Interest:
+                    <br/>
+                    <input type="checkbox" name="interest" id="html" value="html"/>
+                    <label for="html">HTML</label>
+                    <br/>
+                    <input type="checkbox" name="interest" id="css" value="css"/>
+                    <label for="css">CSS</label>
+                    <br/>
+                    <input type="submit" name="submit" id="submit" value="Submit"/>
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
