@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>About Us</h1>
+            <ul>
+                <li><a href="../Assignments/index.html" target="_blank">Home</a></li>
+                <li><a href="../Assignments/about.html" target="_blank">About</a></li>
+                <li><a href="../Assignments/gallery.html" target="_blank">Gallery</a></li>
+                <li><a href="../Assignments/contact.html" target="_blank">Contact</a></li>
+                <li><a href="../Assignments/form.html" target="_blank">Form</a></li>
+            </ul>
+            <h2>Our Story</h2>
+            <blockquote><q>We started our journey with the goal of making web development accessible to everyone.</q></blockquote>
+            <h2>Responsive Image</h2>
+            <picture>
+                <img src="../assets/about-train.jpg" alt="train-line" width="100%"/>
+                <source srcset="../assets/about-train-500.jpg" media="(max-width: 500px)"/>
+                <source srcset="../assets/about-train-800.jpg" media="(max-width: 800px)"/>
+                <source srcset="../assets/about-train-1500.jpg" media="(max-width: 1500px)"/>
+            </picture>
+        </div>
+        <div>
+            <h2>Join Us</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Application Form</legend>
+                    <p>
+                        <label for="fname">Full Name: </label>
+                        <input type="text" name="fname" id="fname" placeholder="Enter Your Full Name" required min="5" max="20"/>
+                        <br/>
+                        <br/>
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="Enter Your Email" required pattern=".+@gmail.com"/>
+                        <Br/>
+                        <br/>
+                        <label for="date">Date of Birth: </label>
+                        <input type="date" name="date" id="date" value="date" required/>
+                    </p>
+                </fieldset>
+                <br/>
+                <button type="submit" name="submit" id="submit" value="submit"><strong>Apply</strong></button>
+                <button type="reset" name="reset" id="reset" value="reset"><strong>Reset</strong></button>
+            </form>
+        </div>
+    </div>  
+</body>
+</html>

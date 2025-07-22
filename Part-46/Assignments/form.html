@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Welcome to Our Website</h1>
+            <ul>
+                <li><a href="../Assignments/index.html" target="_blank">Home</a></li>
+                <li><a href="../Assignments/about.html" target="_blank">About</a></li>
+                <li><a href="../Assignments/gallery.html" target="_blank">Gallery</a></li>
+                <li><a href="../Assignments/contact.html" target="_blank">Contact</a></li>
+                <li><a href="../Assignments/form.html" target="_blank">Form</a></li>
+            </ul>
+            <h2>Introduction</h2>
+            <p>This practice assignment covering all HTML topics so far.</p>
+        </div>
+        <div>
+            <h2>Responsive Image</h2>
+            <picture>
+                <img src="../assets/form-train.jpg" alt="train-line-road" width="100%"/>
+                <source srcset="../assets/form-train.jpg" media="(max-width: 500px)"/>
+                <source srcset="../assets/form-train.jpg" media="(max-width: 800px)"/>
+                <source srcset="../assets/form-train.jpg" media="(max-width: 1500px)"/>
+            </picture>
+        </div>
+        <div>
+            <h2>Form</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <p>
+                        <label for="fname">Full Name: </label>
+                        <input type="text" name="fname" id="fname" placeholder="Enter Your Full Nme" required minlength="5" maxlength="20"/>
+                        <Br/>
+                        <br/>
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="Enter Your Email" required pattern=".+@gmail.com"/>
+                        <br/>
+                        <br/>
+                        <label for="date">Date Of Birth: </label>
+                        <input type="date" name="date" id="date" value="date" required />
+                        <br/>
+                        <br/>
+                        <label for="color">Favorite Color: </label>
+                        <input type="color" name="color" id="color" value="color"/>
+                        <br/>
+                        <br/>
+                        <label for="phone">Phone Number: </label>
+                        <input type="tel" name="phone" id="phone" placeholder="Enter 10-digit phone number" pattern="[0-9]{10}"/>
+                        <br/>
+                        <br/>
+                        <label for="web">Personal Website: </label>
+                        <input type="url" name="web" id="web" placeholder="Enter your website URL"/>
+                        <br/>
+                        <br/>
+                        <label for="dateTime">Meeting Date & Time: </label>
+                        <input type="datetime-local" name="datetime" id="dateTime" value="dateTime"
+                        min="2025-01-01T13:00:00" max="2025-12-31T23:59:59" />
+                        <br/>
+                        <br/>
+                        <label for="week">Preferred Week: </label>
+                        <input type="week" name="week" id="week" value="week"/>
+                        <br/>
+                        <br/>
+                        <label for="Budget">Select Your Budget: </label>
+                        <input type="range" name="Budget" id="Budget" min="1000" max="10000" step="500" value="2000"/>
+                        <br/>
+                        <br/>
+                        Gender:
+                        <input type="radio" name="Gender" id="male" value="male"/>
+                        <label for="male">Male</label>
+                        <input type="radio" name="Gender" id="female" value="female"/>
+                        <label for="female">Female</label>
+                        <br/>
+                        <br/>
+                        Agree to Terms:
+                        <input type="checkbox" name="agreet-to-terms" id="agreet-to-terms" value="agreet-to-terms"/>
+                        <label for="agreet-to-terms">Yes</label>
+                        <br/>
+                        <br/>
+                        <label for="comment">Your Comment: </label>
+                        <textarea name="comment" id="comment" placeholder="Write your comment here..." cols="20" rows="4"></textarea>
+                        <br/>
+                        <br/>
+                        <label for="progress">Completion Progress: </label>
+                        <progress id="progress" max="100" value="60">60/100</progress>
+                        <br/>
+                        <br/>
+                        <label for="meter">Satisfaction Meter: </label>
+                        <meter id="meter" value="75"  min="0" max="100" low="30" high="70" optimum="80">75/100</meter>
+                    </p>
+                </fieldset>
+                <br/>
+                <button type="submit" name="submit" id="submit" value="submit"><strong>Submit</strong></button>
+                <button type="reset" name="reset" id="reset" value="reset"><strong>Reset</strong></button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
