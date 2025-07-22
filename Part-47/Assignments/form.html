@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Submit Your Details</h1>
+            <ul>
+                <li><a href="../Assignments/index.html">Home</a></li>
+                <li><a href="../Assignments/about.html">About</a></li>
+                <li><a href="../Assignments/gallery.html">Gallary</a></li>
+                <li><a href="../Assignments/contact.html">Contact</a></li>
+                <li><a href="../Assignments/form.html">Form</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Fill out the form</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <p>
+                        <label for="fname">Full Name: </label>
+                        <input type="text" name="fname" id="fname" placeholder="Enter Your Full Name" minlength="5" maxlength="20" required/>
+                        <br/>
+                        <br/>
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="Enter Your Email"/>
+                        <br/>
+                        <br/>
+                        <label for="date">Date of Birth: </label>
+                        <input type="date" name="date" id="date"/>
+                        <br/>
+                        <br/>
+                        <label for="phone">Phone Number: </label>
+                        <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" placeholder="Enter 10-digit phone number"/>
+                        <br/>
+                        <br/>
+                        <label for="url">Personal Website: </label>
+                        <input type="url" name="url" id="url" placeholder="Enter Your Website URL"/>
+                        <br/>
+                        <br/>
+                        <label for="color">Favorite Color: </label>
+                        <input type="color" name="color" id="color"/>
+                        <br/>
+                        <br/>
+                        Gender:
+                        <br/>
+                        <input type="radio" name="gender" id="male" value="male"/>
+                        <label for="male">Male</label>
+                        <br/>
+                        <input type="radio" name="gender" id="female" value="female"/>
+                        <label for="female">Female</label>
+                        <br/>
+                        <br/>
+                        <label for="gender">Gender: </label>
+                        <select name="gender" id="gender">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                        <br/>
+                        <br/>
+                        <label for="Language">Preferred Language: </label>
+                        <input type="text" name="Language" id="Language" value="Language" />
+                        <br/>
+                        <br/>
+                        <label for="comment">Your Comments: </label>
+                        <br/>
+                        <br/>
+                        <textarea name="comment" id="comment" placeholder="Write your comment here..." cols="20" rows="4"></textarea> 
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Experience</legend>
+                    <p>
+                        <label for="exp-years">Years of Experience: </label>
+                        <input type="text" name="exp-years" id="exp-years"/>
+                        <br/>
+                        <br/>
+                        <label for="progress">Form Completion Progress: </label>
+                        <progress id="progress" value="50" max="100">50/100</progress>
+                        <br/>
+                        <br/>
+                        <label for="meter">Satisfaction Meter: </label>
+                        <meter id="meter" value="75" min="0" max="100" low="30" high="70" optimum="80">75/100</meter>
+                    </p>
+                </fieldset>
+                <br/>
+                <button type="submit" name="submit" id="submit" value="submit"><strong>Submit</strong></button>
+                <button type="reset" name="reset" id="reset" value="reset"><strong>Reset</strong></button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
