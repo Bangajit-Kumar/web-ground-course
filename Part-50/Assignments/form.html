@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div>
+        <!-- Header Area Start -->
+        <header class="header-area">
+            <section class="nav-area">
+                <div>
+                    <h1>Submit Your Details</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="../Assignments/index.html">Home</a></li>
+                            <li><a href="../Assignments/about.html">About</a></li>
+                            <li><a href="../Assignments/gallery.html">Gallery</a></li>
+                            <li><a href="../Assignments/contact.html">Contact</a></li>
+                            <li><a href="../Assignments/form.html">Form</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+        </header>
+        <!-- Header Area End -->
+        <!-- Main Area Start -->
+        <main class="main-area">
+            <section class="form_section">
+                <div>
+                    <h2>Form Example</h2>
+                    <p>
+                        <label for="fname">Name: </label><br/>
+                        <input type="text" name="fname" id="fname" placeholder="Enter name"/>
+                        <br/>
+                        <label for="email">Email:</label><br/>
+                        <input type="email" name="email" id="email" placeholder="Enter email" pattern=".+@gmail.com"/>
+                        <br/>
+                        <label for="url">Website: </label><br/>
+                        <input type="url" name="url" id="url" placeholder="https://example.com"/>
+                        <br/>
+                        <label for="phone">Phone: </label><br/>
+                        <input type="tel" name="phone" id="phone" placeholder="1234567890"/>
+                        <br/>
+                        <label for="age">Age: </label><br/>
+                        <input type="number" name="age" id="age" value="age"/>
+                        <br/>
+                        <label for="date">Birth Date: </label><br/>
+                        <input type="date" name="date" id="date" required/>
+                        <br/>
+                        <label for="Event">Event Time: </label><br/>
+                        <input type="datetime-local" name="Event" id="Event" value="Event"/>
+                        <br/>
+                        <label for="week">Week: </label><br/>
+                        <input type="week" name="week" id="week" value="week"/>
+                        <br/>
+                        <label for="color">Favorite Color: </label><br/>
+                        <input type="color" name="color" id="color" value="color"/>
+                        <br/>
+                        <label for="satisfaction">Satisfaction: </label><br/>
+                        <input type="range" name="satisfaction" id="satisfaction" value="50" min="5" max="100" step="5"/>
+                        <br/>
+                        <caption>Gender: </caption> <br/>
+                        <input type="radio" name="gender" id="male" value="male"/>
+                        <label for="male">Male</label><br/>
+                        <input type="radio" name="gender" id="female" value="female"/>
+                        <label for="female">Female</label>
+                        <br/>
+                        <caption> Hobbies: </caption> <br/>
+                        <input type="radio" name="hobbies" id="hobbies" value="hobbies"/>
+                        <label for="hobbies">Reading</label>
+                        <br/>
+                        <input type="radio" name="hobbies" id="hobbies" value="hobbies"/>
+                        <label for="hobbies">Gaming</label>
+                        <br/>
+                    
+                        <label for="city">City:</label> <br/>
+                        <input text="city" name="city" id="city" list="Select" placeholder="Select or type"/>
+                        <datalist id="Select">
+                            <option value="Dhaka">DHAKA</option>
+                            <option value="Cottogram">COTTOGRAM</option>
+                            <option value="Sylhet">SYLHET</option>
+                            <option value="Khulna">KHULNA</option>
+                            <option value="Barisal">BARISAL</option>
+                            <option value="Rajsahi">RAJSAHI</option>
+                            <option value="Rangpur">RANGPUR</option>
+                            <option value="Maymanshig">MAYMANSHIG</option>
+                        </datalist>
+                        <br/>
+                        <label for="message">Message: </label><br/>
+                        <textarea
+                         name="message"
+                         id="message"
+                         placeholder="This is readonly text."
+                         cols="40"
+                         rows="3"
+                        ></textarea>
+                        <br/>
+                        <label for="progress">Progress: </label><br/>
+                        <progress id="progress" value="50" max="100" >50/100</progress>
+                        <br/>
+                        <label for="meter">Meter:</label> <br/>
+                        <meter
+                            id="meter"
+                            min="0"
+                            max="100"
+                            low="30"
+                            high="70"
+                            value="75"
+                            optimum="80"
+                        >75/100</meter>
+                        <br/>
+                        <br/>
+                        <button type="submit" name="submit" id="submit" value="submit" disabled><strong>Submit</strong></button>
+                        <button type="reset" name="reset" id="reset" value="reset" disabled><strong>Reset</strong></button>
+                        <hr/>
+                    </p>    
+                </div>
+            </section>
+            <section class="image_code_section">
+                <div>
+                    <p>
+                        <h3>Form Image</h3>
+                        <picture>
+                                <img src="https://fastly.picsum.photos/id/973/200/300.jpg?hmac=gFjS6R63ZUmM9pkLFyPxuEmsxvZ_e8VJxB3mcXpvTUQ"
+                                alt="Lorem-picsum" width="300" height="200"/>
+                        </picture>
+                        <br/>
+                        <br/>
+                        <figcaption><small>Form Image</small></figcaption>
+                        <h3>Form Features</h3>
+                        <ul>
+                            <li>Required fields</li>
+                            <li>Validations with <samp>pattern</samp></li>
+                        </ul>
+                        <dl>
+                            <dt>Form</dt>
+                            <dd>User input collection</dd>
+                        </dl>
+                        <q>Forms are essentials for interaction.</q>
+                        <h3>Code Example</h3>
+                        <pre>               <code> <input type="text" name="code" id="code"/></code></pre>
+                        <br/>
+                        Press <kbd>Tab</kbd> to move. Variable: <var>input</var>. Output: <samp><strong>Submitted</strong></samp>.
+                    </p>
+                </div>
+            </section>
+        </main>
+        <!-- Main Area End -->
+        <!-- Footer Area Start -->
+        <footer class="footer_area">
+            <section class="footer">
+                <div>
+                    <p><samp>&copy;2025</samp> | <a href="../Assignments/index.html">Home</a></p>
+                </div>
+            </section>
+        </footer>
+        <!-- Footer Area End -->
+    </div>
+</body>
+</html>
